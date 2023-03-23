@@ -27,7 +27,7 @@ const Card = ({ data, key }) => {
 
   return (
     <div
-      className="transition ease-in-out delay-150 w-card-width  h-card-height bg-white border border-input rounded-10 p-card-space flex flex-col justify-start shadow-md gap-10px animate-textOpac-1 duration-300"
+      className="transition ease-in-out delay-150 lg:w-card-width  h-card-height md:w-11/12 sm:w-11/12 bg-white border border-input rounded-10 p-card-space flex flex-col justify-start shadow-md gap-10px animate-textOpac-1 duration-300"
       key={key}
     >
       <div className="flex gap-2 w-full h-full">

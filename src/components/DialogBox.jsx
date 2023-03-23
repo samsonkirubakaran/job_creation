@@ -89,7 +89,7 @@ const DialogBox = ({
                 ) : (
                   <Dialog.Panel className="relative w-dialog-width min-h-dialog-height rounded-2xl bg-white p-8 text-left align-middle shadow-xl transition-all ">
                     <button
-                      className="absolute flex justify-center items-center border border-placeholder rounded-full w-10 h-10 bg-white -top-9 shadow-md -right-7"
+                      className="absolute flex justify-center items-center border border-placeholder rounded-full w-10 h-10 bg-white -top-4 lg:-top-9 md:-top-9 sm:-top-9 shadow-md -right-2 lg:-right-7 md:-right-7 sm:-right-7"
                       onClick={() => nextBtn("CLOSE")}
                     >
                       <p>X</p>

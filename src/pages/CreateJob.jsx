@@ -127,7 +127,7 @@ const CreateJob = () => {
             query.data?.length > 0
           )
             ? "flex justify-center items-center w-full h-full"
-            : "grid grid-cols-2 place-content-center place-items-center gap-14 w-full h-full"
+            : "flex flex-col md:flex md:flex-col sm:flex sm:flex-col lg:grid grid-cols-2 place-content-start place-items-center lg:gap-8 md:gap-4 sm:gap-4 gap-4 w-full h-full"
         }
       >
         {query.isLoading ? (
@@ -136,6 +136,7 @@ const CreateJob = () => {
             loop
             src={"https://assets5.lottiefiles.com/packages/lf20_rwbbf6ns.json"}
             style={{ height: "350px", width: "350px" }}
+            u
           />
         ) : query.data !== undefined &&
           query.data !== null &&
